@@ -10,7 +10,7 @@ format:
 test:
 	python -m pytest -vv --cov=hello test_hello.py
 build:
-	#docker build --tag=hello .
+	docker build -t myapp1 .
 deploy:
 	#aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 185183796631.dkr.ecr.us-east-1.amazonaws.com
 	#docker build -t test .
