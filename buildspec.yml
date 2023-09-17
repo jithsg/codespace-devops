@@ -7,3 +7,5 @@ phases:
        - make lint
        - make format
        - make test
+       - make build
+       - make deploy
