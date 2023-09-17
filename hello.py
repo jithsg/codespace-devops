@@ -1,6 +1,7 @@
 # A command line program using fire module to get two numbers from the user and print the sum of the two numbers
 import fire
-#function to add two numbers
+
+# function to add two numbers
 
 def add(x, y):
     return x + y
