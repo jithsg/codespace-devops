@@ -3,9 +3,5 @@ version: 0.2
 phases:
   build:
     commands:
-       - make install
-       - make lint
-       - make format
-       - make test
-       - make build
-       - make deploy
+       - make all
+
